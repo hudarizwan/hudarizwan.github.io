@@ -1,1 +1,1 @@
-﻿document.getElementById("year").textContent = new Date().getFullYear();
+﻿window.addEventListener("load", () => document.body.classList.add("loaded"));
